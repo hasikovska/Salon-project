@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salon project</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js"></script>
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li>O нас</li>
+        <li>Услуги</li>
+        <li>Мастера</li>
+        <li>Oтзывы</li>
+        <li>Контакты</li>
+        <!-- TODO: download svg icons and move them to separate folder -->
+        <li>+38(093)227-81-08</li>
+      </ul>
+    </nav>
+    <!-- HOME -->
+    <div class="home">
+      <div class="home-content">
+        <h2>Салон красоты премиум-класса</h2>
+        <h1>LA BEAUTE</h1>
+        <p>При записи онлайн, скидка 10% на любую услугу салона</p>
+        <button>Записаться онлайн</button>
+      </div>
+      <div class="home-img">
+        <img src="./img/main.png" />
+      </div>
+      <button class="home-btn"><img src="./img/dovn.svg" /></button>
+    </div>
+    <!-- ABOUT -->
+    <div class="about">
+      <div class="about-img">
+        <img src="./img/salon.png" />
+      </div>
+      <div class="about-content">
+        <span class="header">О нас</span>
+        <h3>O нас</h3>
+        <p>
+          La Beauty - это концептуальный салон красоты в г. Харьков. Наше кредо
+          сделать красивой каждую женщину, именно поэтому мы <br />предлагаем
+          наши эксклюзивные услуги по доступным ценам! Наши профессиональные
+          мастера работают только с натуральной,<br />профессиональной
+          косметикой. Почти вся продукция, которую мы<br />используем в работе,
+          органическая.
+        </p>
+      </div>
+    </div>
+    <!-- PRICE -->
+    <div class="price">
+      <div class="price-content">
+        <span class="heder">Прайс лист</span>
+        <h3>Прайс лист</h3>
+        <div class="service-category">
+          <button>Уход за волосами</button>
+          <button>Ногтевой сервис</button>
+          <button>SPA-услуги</button>
+          <button>Make-up</button>
+        </div>
+        <div class="service-type">
+          <ul id="hair">
+            <li>Женская стрижка</li>
+            <li>Мужская стрижка</li>
+            <li>Однотонное окрашивание</li>
+            <li>Сложное окрашивание</li>
+            <li>Укладка</li>
+            <li>Прическа</li>
+            <li>Кератин</li>
+            <li>Ботокс</li>
+          </ul>
+          <ul id="nails">
+            <li>Комплекс маникюр</li>
+            <li>Европейский необрезной маникюр</li>
+            <li>Классический обрезной</li>
+            <li>Покрытие гель-лаком</li>
+            <li>Лечебное покрытие ногтей IBX</li>
+            <li>SPA-уход свечой</li>
+            <li>Наращивание ногтей</li>
+          </ul>
+          <ul id="spa">
+            <li>Скрабирование тела</li>
+            <li>Медовый массаж</li>
+            <li>Обёртывание</li>
+            <li>Ароматерапия массаж</li>
+          </ul>
+          <ul id="make-up">
+            <li>Легкий макияж</li>
+            <li>Дневной макияж</li>
+            <li>Однотонное окрашивание</li>
+            <li>Сложное окрашивание</li>
+          </ul>
+          <button>Записаться онлайн</button>
+        </div>
+      </div>
+      <div class="price-img">
+        <img src="./img/girl.png" />
+      </div>
+    </div>
+    <!-- MASTER -->
+    <div class="masters">
+      <span class="heder">Наши мастера</span>
+      <h4>Наши мастера</h4>
+      <div class="masters-category">
+        <button>Топ мастера</button>
+        <button>Мастера маникюра</button>
+        <button>Парикмахеры</button>
+        <button>Визажисты</button>
+        <button>Бровисты</button>
+        <button>Косметологи</button>
+      </div>
+      <ul>
+        <!-- TODO: create classes which can describe each profetional by its skills (use the list "masters-category" above)  -->
+        <li class="master-container top cosmetologi make-up hair">
+          <img src="./img/masters/kristina.png" />
+          <h5>Кристина Снегирёва</h5>
+          <p>Косметолог<br />Опыт работы 9 лет</p>
+        </li>
+        <li class="master-container top hair brow">
+          <img src="./img/masters/alex.png" />
+          <h5>Алексей Макаров</h5>
+          <p>Парикмахер-стилист<br />Опыт работы 10 лет</p>
+        </li>
+        <li class="master-container top nail brow cosmetologi">
+          <img src="./img/masters/ann.png" />
+          <h5>Анна Максимова</h5>
+          <p>Мастер маникюра<br />Опыт работы 7 лет</p>
+        </li>
+        <li class="master-container nail brow make-up">
+            <img src="./img/masters/oleg.png" />
+            <h5>Олег Макаров</h5>
+            <p>Мастер маникюра<br />Опыт работы 4 года</p>
+        </li>
+        <li class="master-container make-up hair cosmetologi">
+            <img src="./img/masters/viktoria.png" />
+            <h5>Виктория Мончинская</h5>
+            <p>Визажист<br />Опыт работы 2 года</p>
+        </li>
+        <!-- TODO: add more people -->
+      </ul>
+    </div>
+    <!-- FEEDBACK -->
+    <div class="feedback">
+      <!-- span 6 -->
+      <span class="heder">Отзывы</span>
+      <!-- span 6 -->
+      <h3>Отзывы</h3>
+      <!-- each element has span 2 -->
+      <div class="customer-fedback">
+        <img src="./img/feedback/feedback1.png" />
+        <h5>Оля Портнова</h5>
+        <p>
+          Очень приятный администратор, девчонки парикмахеры просто чудо.
+          Спасибо вам огромное за вашу работу) 😘
+        </p>
+      </div>
+      <div class="customer-fedback">
+        <img src="./img/feedback/feedback2.png" />
+        <h5>Кристина Снегирёва</h5>
+        <p>
+          Всегда качественный сервис и приятные цены. Доверяю свои ноготки и
+          реснички только этому салону.
+        </p>
+      </div>
+      <div class="customer-feedback">
+        <img src="./img/feedback/feedback3.png" />
+        <h5>Cофи Дзись</h5>
+        <p>
+          Салон чистый, атмосфера приятная🤗 Юлия мастер своего дела, делала
+          процедуру липокоррекции😍 довольна абсолютно всем💪
+        </p>
+      </div>
+      <div class="customer-feedback">
+        <img src="./img/feedback/feedback4.png" />
+        <h5>Оля Портнова</h5>
+        <p>
+            Очень приятный администратор, девчонки парикмахеры просто чудо. Спасибо вам огромное за вашу работу😘
+        </p>
+      </div>
+      <p>Читать все отзывы</p>
+      <!--TODO: wrap buttons into div (this way it will be easier to style them) -->
+      <!-- TODO: download all the service buttons as svg without backround. Service buttons are left/right/down and so on. We should try to define colors only in css-->
+      <div class="buttons">
+        <button><img src="./img/left.svg" /></button>
+        <button><img src="./img/right.svg" /></button>
+      </div>
+      
+    </div>
+    <!-- WORKS -->
+    <!-- TODO: rename "our-works" to just "work"-->
+    <div class="works">
+      <!-- TODO: as we did before in Feedback section - change the structure of Works so it could be easier to style it with grid -->
+      <!-- TODO: div->span ; h4->h3-->
+      <span class="heder">Наши работы</span>
+      <h3>Наши работы</h3>
+      <p>Больше работ вы можете увидеть в нашем instagram</p>
+      <button><img src="./img/left.svg" /></button>
+      <ul class="images-of-work">
+        <li><img src="./img/works/photo1.png" /></li>
+        <li><img src="./img/works/photo2.png" /></li>
+        <li><img src="./img/works/photo3.png" /></li>
+        <li><img src="./img/works/photo4.png" /></li>
+        <li><img src="./img/works/photo5.png" /></li>
+      </ul>
+      <button><img src="./img/right.svg" /></button>
+    </div>
+    <!-- CONTACT -->
+    <div class="contact">
+      <span class="heder">Контакты</span>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2220.2252215699127!2d36.231917632663425!3d49.98992436077773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a0f1b04aa383%3A0x95193f4aa08177cb!2z0KLQoNCmIE5JS09MU0tZ!5e0!3m2!1sru!2shu!4v1711539711633!5m2!1sru!2shu"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <div class="contact-container">
+        <h3>Контакты</h3>
+        <!-- TODO:  combine all the p together-->
+        <p>+38 (093) 227-81-08
+            elka@gmail.com
+            Харьков, ул. Григория Сковороды, 2а (цоколь).</p>
+        <button>Записаться онлайн</button>
+      </div>
+    </div>
+  </body>
+</html>
